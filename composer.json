@@ -39,6 +39,9 @@
             "php artisan optimize"
         ],
         "post-update-cmd": [
+            "php artisan clear-compiled",
+            "php artisan optimize",
+            "chmod -R 777 public/",
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
         ]
