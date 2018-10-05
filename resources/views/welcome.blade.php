@@ -81,6 +81,7 @@
                 <div class="title m-b-md">
                     Voeurn Chy
                 </div>
+                <p>version: {{ App::VERSION() }}</p>
 
                 <div class="links">
                     <a href="https://first4wep.blogspot.com">My site</a>
