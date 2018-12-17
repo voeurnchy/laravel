@@ -83,6 +83,8 @@
                 </div>
                 <p>version: {{ App::VERSION() }}</p>
                 <p>Url: {{ url('/') }}</p>
+                <p>config url: {{ config('app.url') }}</p>
+                <p>ENV url: {{ env('APP_URL') }}</p>
                 <p>{{ config('database.default', 'noo') }}</p>
                 <div class="links">
                     <a href="https://first4wep.blogspot.com">My site</a>
