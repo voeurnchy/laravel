@@ -82,6 +82,7 @@
                     Voeurn Chy
                 </div>
                 <p>version: {{ App::VERSION() }}</p>
+                <p>Url: {{ url('/') }}</p>
                 <p>{{ config('database.default', 'noo') }}</p>
                 <div class="links">
                     <a href="https://first4wep.blogspot.com">My site</a>
