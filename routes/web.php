@@ -12,6 +12,8 @@
 */
 
 Route::get('/', function () {
+	$data = config('menu');
+    return view('menu', compact('data'));
     return view('welcome');
 });
 
